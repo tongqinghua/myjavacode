@@ -17,5 +17,8 @@ public class ArrayTest {
         //Type2：静态赋值:根据数据类型和值来指定长度
         int[] ints2 = {1,2,3,4,5};
         System.out.println(Arrays.toString(ints2));
+
+        System.out.println(Arrays.stream(ints2).max());
+        System.out.println(Arrays.stream(ints2).min());
     }
 }
