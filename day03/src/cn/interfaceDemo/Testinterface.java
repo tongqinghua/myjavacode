@@ -13,7 +13,6 @@ public class Testinterface {
     }
 
 }
-
 abstract class Animal{
     abstract void eat();
 }
