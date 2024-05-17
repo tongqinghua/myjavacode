@@ -8,7 +8,7 @@ package cn.Thread;
 public class Demo01 {
     public static void main(String[] args) {
 
-        //每个java程序都最少有一个进程
+        //每个java程序都最少有一个进程.
         Thread thread = Thread.currentThread();
 
         System.out.println(thread.getName());
